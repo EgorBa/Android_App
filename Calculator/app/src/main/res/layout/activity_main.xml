@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:textIsSelectable="true"
+            android:textSize="14pt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:id="@+id/linearLayout"
+            android:orientation="horizontal">
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_1"
+                android:textSize="12pt"
+                android:id="@+id/btn1"
+                tools:ignore="ButtonStyle,NestedWeights">
+            </Button>
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_2"
+                android:textSize="12pt"
+                android:id="@+id/btn2"
+                tools:ignore="ButtonStyle">
+            </Button>
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_3"
+                android:textSize="12pt"
+                android:id="@+id/btn3"
+                tools:ignore="ButtonStyle">
+            </Button>
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_plus"
+                android:textSize="12pt"
+                android:id="@+id/btnAdd"
+                tools:ignore="ButtonStyle">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_4"
+                android:textSize="12pt"
+                android:id="@+id/btn4"
+                tools:ignore="ButtonStyle,NestedWeights">
+            </Button>
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_5"
+                android:textSize="12pt"
+                android:id="@+id/btn5"
+                tools:ignore="ButtonStyle">
+            </Button>
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_6"
+                android:textSize="12pt"
+                android:id="@+id/btn6"
+                tools:ignore="ButtonStyle">
+            </Button>
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/minus"
+                android:textSize="12pt"
+                android:id="@+id/btnSub"
+                tools:ignore="ButtonStyle">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_7"
+                android:textSize="12pt"
+                android:id="@+id/btn7"
+                tools:ignore="ButtonStyle,NestedWeights">
+            </Button>
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_8"
+                android:textSize="12pt"
+                android:id="@+id/btn8"
+                tools:ignore="ButtonStyle">
+            </Button>
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_9"
+                android:textSize="12pt"
+                android:id="@+id/btn9"
+                tools:ignore="ButtonStyle">
+            </Button>
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="@string/multiply"
+                android:textSize="12pt"
+                android:id="@+id/btnMul"
+                tools:ignore="ButtonStyle">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:id="@+id/linearLayout3"
+        android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/c"
+                android:textSize="12pt"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/_0"
+                android:textSize="12pt"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btnStop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/point"
+                android:textSize="12pt"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btnDiv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/div"
+                android:textSize="12pt"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnD"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/delete"
+                android:textSize="12pt"
+                tools:ignore="ButtonStyle,NestedWeights" />
+
+            <Button
+                android:id="@+id/btnRes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/result"
+                android:textSize="12pt"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
