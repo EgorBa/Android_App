@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DroidScan</string>
+    <string name="description">Данное приложение, после нажатия на кнопку \"старт\", каждую минуту записывает ваше местоположение в файл Location.txt</string>
+    <string name="start">Старт</string>
+    <string name="stop">Стоп</string>
+    <string name="startLocation">Запись координат начата</string>
+    <string name="stopLocation">Запись координат прикращена</string>
+    <string name="errorRequest">Не удается запросить обновление местоположения</string>
+    <string name="errorPermission">Не будет работать без вашего разрешения</string>
+    <string name="fileName">Location.txt</string>
+</resources>
