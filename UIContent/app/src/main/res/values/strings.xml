@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Прогноз погоды</string>
+    <string name="wind">ветер, 20 м/с</string>
+    <string name="humidity">влажность, 46%</string>
+    <string name="pressure">давление, 763 мм.рт.ст.</string>
+    <string name="Sunday">Вc</string>
+    <string name="temp_sunday">20 C</string>
+    <string name="Monday">Пн</string>
+    <string name="temp_monday">18 C</string>
+    <string name="Tuesday">Вт</string>
+    <string name="todo">TODO</string>
+    <string name="temp_tuesday">15 C</string>
+    <string name="Wednesday">Ср</string>
+    <string name="temp_wednesday">12 C</string>
+    <string name="Thursday">Чт</string>
+    <string name="temp_thursday">23 C</string>
+    <string name="Friday">Пт</string>
+    <string name="temp_friday">21 C</string>
+    <string name="City">Санкт-Петербург, Россия</string>
+    <string name="Day">Суббота, 23 июня</string>
+    <string name="Temp">18 C</string>
+    <string name="Title">Облачно</string>
+    <color name="LightCyan">#E0FFFF</color>
+    <color name="MediumSlateBlue">#7B68EE</color>
+    <color name="PaleTurquoise">#AFEEEE</color>
+
+</resources>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightCyan"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintHorizontal_weight="6"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/todo"
+        android:padding="50dp"
+        android:src="@drawable/ic_cloud_black_24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/line1" />
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toRightOf="@id/image"
+        app:layout_constraintRight_toLeftOf="@id/line2"
+        app:layout_constraintHorizontal_weight="2">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/PaleTurquoise">
+
+            <ImageView
+                android:id="@+id/vt4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/todo"
+                android:padding="15dp"
+                android:src="@drawable/ic_toys_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/wind"
+                android:gravity="center"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/vt4" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="@color/PaleTurquoise"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/vt5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/ic_opacity_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/humidity"
+                android:gravity="center"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/vt5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="@color/PaleTurquoise"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/vt6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/ic_bubble_chart_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="@string/pressure"
+                android:textSize="5pt"
+                android:gravity="center"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/vt6" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        app:layout_constraintLeft_toRightOf="@id/line1"
+        app:layout_constraintRight_toLeftOf="@id/line3"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_weight="2"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/PaleTurquoise"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/Sunday"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                tools:ignore="NestedWeights" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:contentDescription="@string/todo"
+                android:padding="2dp"
+                android:src="@drawable/ic_lens_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/temp_sunday"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/PaleTurquoise">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/Monday"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                tools:ignore="NestedWeights" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4">
+
+                <ImageView
+                    android:id="@+id/vt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/todo"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_lens_black_24dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/ic_cloud_black_24dp"
+                    app:layout_constraintBottom_toBottomOf="@id/vt" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/temp_monday"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="3dp"-->
+<!--            android:background="@color/LightCyan" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:background="@color/PaleTurquoise"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/Tuesday"
+                android:textSize="7pt"
+                android:textStyle="bold"
+                tools:ignore="NestedWeights" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:contentDescription="@string/todo"
+                android:padding="2dp"
+                android:src="@drawable/ic_cloud_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/temp_tuesday"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/line2"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            android:padding="20dp"
+            android:src="@drawable/ic_build_black_24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            android:padding="20dp"
+            android:src="@drawable/ic_get_app_black_24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            android:padding="20dp"
+            android:src="@drawable/ic_home_black_24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            android:padding="20dp"
+            android:src="@drawable/ic_share_black_24dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/City"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/image"
+        app:layout_constraintHorizontal_weight="6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/line1" />
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Day"
+        android:textSize="25sp"
+        app:layout_constraintHorizontal_weight="6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/line1"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Temp"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/city"
+        app:layout_constraintHorizontal_weight="6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/line1" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Title"
+        android:textSize="50sp"
+        app:layout_constraintHorizontal_weight="6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/line1"
+        app:layout_constraintTop_toTopOf="@id/image" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
