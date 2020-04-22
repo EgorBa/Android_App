@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="todo">TODO</string>
+    <string name="point">.</string>
+    <color name="LightCyan">#E0FFFF</color>
+    <color name="MediumSlateBlue">#7B68EE</color>
+    <color name="PaleTurquoise">#AFEEEE</color>
+</resources>
