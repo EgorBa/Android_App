@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Animation</string>
+    <string name="load">Загрузка...</string>
+    <string name="todo">TODO</string>
+</resources>
