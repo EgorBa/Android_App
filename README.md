@@ -26,3 +26,7 @@
 При повороте экрана данные не перезапрашиваются.  
 [Горизонтальная ориентация](https://github.com/EgorBa/Android_App/blob/master/WeatherApp/horizontal.jpg)  
 [Вертикальная ориентация](https://github.com/EgorBa/Android_App/blob/master/WeatherApp/vertical.jpg)
+## [KrutBar](https://github.com/EgorBa/Android_App/tree/master/KrutBar)
+Приложение разработанное для ресторана. Загружает всё меню в RecyclerView с google базы данных (таким образом есть возможность вносить в него коррективы), от туда же берет доступные службы доставки. Также есть отдельная страница "О нас", где присутствуют ссылки на соц. сети и google карта. По мимо этого присутствует регистрация и реферальная программа, позволяющая накапливать бонусы и тратить их но новые заказы (так же работает все на основе google базы данных и двух приложений : клиента и мэнеджера)  
+[Приложение для клиента](https://github.com/EgorBa/Android_App/tree/master/KrutBar/KrutBar)  
+[Приложение для мэнеджера](https://github.com/EgorBa/Android_App/tree/master/KrutBar/KrutbarManager)
