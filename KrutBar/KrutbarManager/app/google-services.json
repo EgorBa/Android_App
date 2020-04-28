@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "1008373810049",
+    "firebase_url": "https://krutilnya-bar.firebaseio.com",
+    "project_id": "krutilnya-bar",
+    "storage_bucket": "krutilnya-bar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008373810049:android:1a852e914f0b599f209e80",
+        "android_client_info": {
+          "package_name": "com.example.krut_bar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008373810049-m6pi6t7e2pak6at77t8id6ou990ot53m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krut_bar",
+            "certificate_hash": "5305cc1b91ba26e7ff5ee2a513a90c79fc1c87e4"
+          }
+        },
+        {
+          "client_id": "1008373810049-8feotdukbqughhqbkvrd2g9lcv5j42ue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdz87ceGLCywtPa6ERMioLeKcaHI343F4"
+        },
+        {
+          "current_key": "AIzaSyDZStS2p0Gx5lGHeXtDEshmloNv9D6W9u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008373810049-8feotdukbqughhqbkvrd2g9lcv5j42ue.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1008373810049-bg8j8b0kmj11e3v9lklr53o6vo1vbinh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.itmo.Krutilnya-bar"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008373810049:android:dc6605b2f9e331b2209e80",
+        "android_client_info": {
+          "package_name": "com.example.krutbarmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008373810049-bp0vbkmlj8q5u4l8nvkjlere5jo6i9iu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krutbarmanager",
+            "certificate_hash": "5305cc1b91ba26e7ff5ee2a513a90c79fc1c87e4"
+          }
+        },
+        {
+          "client_id": "1008373810049-8feotdukbqughhqbkvrd2g9lcv5j42ue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdz87ceGLCywtPa6ERMioLeKcaHI343F4"
+        },
+        {
+          "current_key": "AIzaSyDZStS2p0Gx5lGHeXtDEshmloNv9D6W9u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008373810049-8feotdukbqughhqbkvrd2g9lcv5j42ue.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1008373810049-bg8j8b0kmj11e3v9lklr53o6vo1vbinh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.itmo.Krutilnya-bar"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

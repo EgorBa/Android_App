@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/code1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/sum"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1">
+
+        <EditText
+            android:id="@+id/code"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:hint="Введите код"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:text="find"
+            android:id="@+id/find"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sum"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/points"
+        app:layout_constraintTop_toBottomOf="@id/code1"
+        app:layout_constraintVertical_weight="1" />
+
+    <EditText
+        android:id="@+id/points"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:hint="Введите количество баллов"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/plus"
+        app:layout_constraintTop_toBottomOf="@id/sum"
+        app:layout_constraintVertical_weight="1">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_background_green"
+        android:text="Добавить баллы"
+        app:layout_constraintBottom_toTopOf="@id/minus"
+        app:layout_constraintTop_toBottomOf="@id/points"
+        app:layout_constraintVertical_weight="1">
+
+    </Button>
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_background"
+        android:text="Списать баллы"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/plus"
+        app:layout_constraintVertical_weight="1">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

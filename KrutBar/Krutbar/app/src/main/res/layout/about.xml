@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.2"
+        android:src="@drawable/krut"></ImageView>
+
+    <Button
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/button_background_orange"
+        android:textColor="@color/black"
+        android:fontFamily="@font/krut"
+        android:text="Наши адреса"
+        android:id="@+id/buttom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></Button>
+
+    <ScrollView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/krut"
+            android:text="Стритфуд бар Крутильня - здесь можно заказать шавермы Классическую, Вегетарианскую с адыгейским сыром, Мексиканскую с говядиной и фасолью. Но а для гурманов, шаверма со свежим щавелем и яйцом пашот, фреш-ролл с маринованным тофу и чили арахисом и мороженое из халвы. Доставка еды осуществляется по всему СПб."
+            android:textColor="@color/black"
+            android:textSize="18sp"></TextView>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/vk"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/vk"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></ImageView>
+
+        <TextView
+            android:fontFamily="@font/krut"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="Наша группа Вконтакте"
+            android:textColor="@color/black"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/insta"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:padding="5dp"
+            android:src="@drawable/insta"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></ImageView>
+
+        <TextView
+            android:fontFamily="@font/krut"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="Наш Instagram"
+            android:textColor="@color/black"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
