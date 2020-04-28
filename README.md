@@ -1,6 +1,6 @@
 # Описание приложений :
 ## [Calculator](https://github.com/EgorBa/Android_App/tree/master/Calculator)
-Обычный калькулятор поддерживающий работу с double, поворот экрана и возможность копировать результат.
+Обычный калькулятор поддерживающий работу с double, поворот экрана и возможность копировать результат.  
 [Внешний вид](https://github.com/EgorBa/Android_App/blob/master/Calculator/example.jpg)
 ## [UIContent](https://github.com/EgorBa/Android_App/tree/master/UIContent)
 Экран приложения погоды.  
